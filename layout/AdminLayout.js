@@ -31,7 +31,7 @@ export default function AdminLayout({ children, pagina }) {
                     Ordenes Faltantes
                   </Link>
                   <Link
-                    href="/faltantes"
+                    href="/admin"
                     className="text-amber-500 font-bold"
                   >
                     Ordenes Listas
