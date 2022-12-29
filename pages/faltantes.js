@@ -5,11 +5,9 @@ import Orden from '../components/Orden'
 
 const faltantes = () => {
 
-    const fetcher = () => axios('api/ordenesListas').then(datos=>datos.data)
+    const fetcher = () => axios('/api/ordenesListas').then(datos=>datos.data)
 
     const { data, error, isLoading } = useSWR('/api/ordenesListas',fetcher,{refreshInterval:100})
-
-    console.log(data)
 
   return (
     <AdminLayout>
