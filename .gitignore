@@ -33,6 +33,6 @@ yarn-error.log*
 
 .env
 
-/pages/faltantes.js
+/pages/faltantes
 
 faltantes.js
