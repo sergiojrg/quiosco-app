@@ -3,7 +3,7 @@ import axios from 'axios'
 import AdminLayout from '../layout/AdminLayout'
 import Orden from '../components/Orden'
 
-const faltantes = () => {
+const Faltantes = () => {
 
     const fetcher = () => axios('/api/ordenesListas').then(datos=>datos.data)
 
@@ -28,4 +28,4 @@ const faltantes = () => {
   )
 }
 
-export default faltantes
+export default Faltantes
